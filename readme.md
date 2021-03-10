@@ -3,6 +3,18 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## Introduction
+
+JavaScript is the most important computer programming language on the Web. It's not the only one, but all browsers include the "engine" to run JavaScript code for websites. You may have heard about other Web languages such as TypeScript. But in modern browsers, even if you use another language, it would need to be "transpiled" (basically, converted) to JavaScript using other tools before it can be run in a browser.
+
+Most sites also have part of the code on the server, where there is a much larger variety of supported languages. Node.js is one very popular language that can run on the server. Actually, both JavaScript and Node.js are the same language -- each with their own extensions to run properly in each of their environments. So JavaScript isn't really the language. It's often called that because it was initally only used in browsers, so the common name stuck. The actual language is called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript), and is standardized by a dedicated panel of industry professionals.
+
+The [Phaser3](https://phaser.io/phaser3) game engine is a library for the JavaScript side of things -- the browser. Sure, it can make use of server software, but games are very visual and UI-centric, so most of the code is written for the browser. I've found that the best way to learn a new language or any software technology is by diving in and using it. But I've always found the typical sample applications used for teaching pretty boring -- to-do lists, blogs, Twitter simulations, etc. But making a game not only makes it a lot more fun and motivating, you get to learn two things at once!
+
+That's why I've decided to teach JavaScript by building a game using the very popular and feature-rich JavaScript game engine, Phaser3. Go ahead and check out the site. I'm sure it will get you as excited about making games as it made me. But it can also get overwhelming. There are so many features, so many examples, and a huge API (library full of functions to do all kinds of things in your games). But my goal is to walk you through it slowly, teaching you both JavaScript and game development by taking it one step at a time. As we progress, more and more of the game will come alive, and by the end (there's never really an end), you'll be itching to add your own features and enhancements!
+
+The project in this folder is the completed portion of the game for the first lesson. Of course, the game is not complete. Just the initial stages are set up in this lesson. But I hope it will make you hungry for the next stages.
+
 ## Prerequisites / Initial Installation
 
 You'll need [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/), and [Parcel](https://parceljs.org/) installed.
